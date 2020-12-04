@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule "list" "index.php?controller=admin&action=list"
+RewriteRule "add" "index.php?controller=admin&action=add"
+RewriteRule ^edit-([0-9]+) "index.php?controller=admin&action=edit&id=$1"
+RewriteRule ^show-([0-9]+) "index.php?controller=admin&action=show&id=$1"
