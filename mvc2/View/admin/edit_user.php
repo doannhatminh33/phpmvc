@@ -36,22 +36,22 @@ if(isset($_FILES['image'])){
 </head>
 <body>
 <style>
-.capnhatthanhvien{
+.updatemodule{
     
     border: 1px solid #DDDDDD;
     width: 90%;
     margin:60px;
 }
-.capnhatthanhvien a{
+.updatemodule a{
 margin-right:5px;
 }
-.capnhatthanhvien h1{
+.updatemodule h1{
     padding: 5px;
 }
-.capnhatthanhvien form table tr td{
+.updatemodule form table tr td{
     padding: 5px;
 }
-.capnhatthanhvien form table tr td input{
+.updatemodule form table tr td input{
     padding:3px 5px;
 }
 .nav{
@@ -73,7 +73,7 @@ margin-right:5px;
 }
 </style>
     <div class="content">
-        <div class="capnhatthanhvien">   
+        <div class="updatemodule">   
         <ul class="nav">
             <li><h1>Edit</h1></li>
             <li><a href="index.php?controller=admin&action=list">Back</a>
