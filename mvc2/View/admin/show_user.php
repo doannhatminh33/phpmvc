@@ -24,7 +24,7 @@
         <div class="showuser">   
             <ul class="nav">
             <li><h1><?php echo $dataID['title']; ?></h1></li>
-            <li><a href="index.php?controller=admin&action=list">Back</a></li>
+            <li><a href="list">Back</a></li>
             </ul>
             <hr>
                 <table>
